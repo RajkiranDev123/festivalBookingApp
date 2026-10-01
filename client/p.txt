@@ -1,0 +1,40 @@
+npm create vite@latest . -- --template react
+
+npm install tailwindcss @tailwindcss/vite
+
+vite.config.js :
+
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+import path from 'path'
+
+export default defineConfig({
+  plugins: [react(), tailwindcss()],
+
+  resolve: {
+    alias: {
+      '@': path.resolve(__dirname, './src'),
+    },
+  },
+})
+
+src/index.css : @import "tailwindcss";
+
+npx shadcn@latest init
+
+npx shadcn@latest add dialog
+npx shadcn@latest add card
+
+jsconfig.json :
+
+{
+  "compilerOptions": {
+    // "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  }
+}
+
+npm i react-router-dom
