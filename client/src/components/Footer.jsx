@@ -47,7 +47,7 @@ const Footer = () => {
 
         {/* Gallery */}
         <Link
-          to="/"
+          to="/gallery"
           className="mt-4 flex w-full items-center justify-center gap-2 rounded-xl  bg-gray-50 px-4 py-3 text-sm font-semibold text-amber-700 transition-all hover:bg-gray-100 hover:shadow-md active:scale-[0.98]"
         >
           <Images className="h-5 w-5" />

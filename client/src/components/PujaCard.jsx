@@ -8,11 +8,12 @@ import {
   CardTitle,
 } from "@/components/ui/card";
 import { Clock, IndianRupee } from "lucide-react";
+import { Link } from "react-router-dom";
 
 
 const PujaCard = ({ puja }) => {
   return (
-    <Card className="overflow-hidden border-amber-200 bg-white shadow-md transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
+    <Card className="overflow-hidden  bg-white shadow-sm transition-all duration-300 hover:-translate-y-1 hover:shadow-xl">
       
       {/* Image */}
       <div className="relative h-52 overflow-hidden">
@@ -72,7 +73,7 @@ const PujaCard = ({ puja }) => {
 </div>
 
 {/*  */}
-
+<Link to={"/booking"}>
   <button
     type="button"
     className="mt-3 w-full rounded-xl bg-gray-500 px-4 py-2.5 text-sm font-semibold cursor-pointer
@@ -80,6 +81,9 @@ const PujaCard = ({ puja }) => {
   >
     Select for Booking
   </button>
+</Link>
+
+
 
 
         </div>
