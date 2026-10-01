@@ -7,14 +7,19 @@ import PujaCard from "@/components/PujaCard";
 const Home = () => {
   return (
     <>
-      <div className="min-h-screen bg-gray-100">
+      <div className="min-h-screen bg-white">
 
         <Header name="Ramesh Adhikari" />
 
         <main className="mx-auto max-w-2xl px-4 pt-28">
 
           {/* Heading */}
-          <div className="mb-4 text-center">
+          <div className="mb-4 text-center items-center flex gap-3">
+                    <img
+          src={"/swastik.jpeg"}
+          alt={puja.name}
+          className="h-[20px] w-[20px] mt-2 object-cover transition-transform duration-500 hover:scale-105 animate-spin"
+        />
             <h5 className=" font-bold text-gray-900/80 font-mono duration-500 mt-2"> Puja Services :</h5>
           </div>
 
