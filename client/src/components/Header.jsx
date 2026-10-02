@@ -9,7 +9,7 @@ const Header = ({name}) => {
         {/* Profile Image */}
         <div className="relative shrink-0">
           <img
-            src="/profile.jpg"
+            src="/profile.png"
             alt="pandit ji"
             className="h-16 w-16 rounded-full object-cover ring-2 ring-amber-400 ring-offset-2 shadow-lg hover:scale-105 duration-300"
           />

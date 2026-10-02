@@ -73,7 +73,7 @@ const PujaCard = ({ puja }) => {
 </div>
 
 {/*  */}
-<Link to={"/booking"}>
+<Link to={"/booking"} state={{ puja }}>
   <button
     type="button"
     className="mt-3 w-full rounded-xl bg-gray-500 px-4 py-2.5 text-sm font-semibold cursor-pointer
