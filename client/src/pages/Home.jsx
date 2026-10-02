@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import React from "react";
 import puja from "@/data/puja";
 import PujaCard from "@/components/PujaCard";
+import Payment from "@/components/Payment";
 
 const Home = () => {
   return (
@@ -32,6 +33,8 @@ const Home = () => {
           {/* Cards ends */}
 
         </main>
+
+        <Payment/>
 
         <Footer />
 
