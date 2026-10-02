@@ -204,7 +204,7 @@ Please confirm my booking.`;
               {/* Amount */}
               <div className="rounded-2xl bg-orange-50 p-4">
                 <div className="flex items-center gap-2 text-sm text-gray-500">
-                  <IndianRupee className="h-4 w-4 text-amber-600" />
+                  <IndianRupee className="h-4 w-4 text-amber-600 animate-pulse" />
                   Amount
                 </div>
 
@@ -216,7 +216,7 @@ Please confirm my booking.`;
               {/* Duration */}
               <div className="rounded-2xl bg-gray-50 p-4">
                 <div className="flex items-center gap-2 text-sm text-gray-500">
-                  <Clock className="h-4 w-4 text-gray-600" />
+                  <Clock className="h-4 w-4 text-gray-600 animate-spin" />
                   Duration
                 </div>
 
