@@ -59,7 +59,7 @@ const Payment = () => {
   };
 
   return (
-    <section className="mx-auto max-w-2xl px-4 py-10">
+    <section className="mx-auto max-w-2xl px-4 py-10 mt-12 border-t border-gray-200/60">
 
       {/* ================= HEADER ================= */}
       <div className="mb-8 text-center">
@@ -98,9 +98,7 @@ const Payment = () => {
                 Download QR & Pay
               </h3>
 
-              <p className="text-sm text-gray-500">
-                Scan the QR using any UPI app
-              </p>
+          
             </div>
 
           </div>
@@ -121,9 +119,7 @@ const Payment = () => {
             </div>
 
 
-            <p className="mt-4 text-center text-sm font-medium text-gray-600">
-              Google Pay • PhonePe • Paytm • BHIM
-            </p>
+    
 
 
             {/* Download */}
@@ -157,12 +153,9 @@ const Payment = () => {
 
             <div>
               <h3 className="font-bold text-gray-900">
-                Pay Directly via UPI
+                Pay using UPI
               </h3>
 
-              <p className="text-sm text-gray-500">
-                Enter amount and open your UPI app
-              </p>
             </div>
 
           </div>
@@ -210,9 +203,7 @@ const Payment = () => {
             </button>
 
 
-            <p className="mt-3 text-center text-xs text-gray-400">
-              Your UPI app will open with the amount filled in
-            </p>
+   
 
           </div>
 
@@ -235,12 +226,10 @@ const Payment = () => {
 
             <div>
               <h3 className="font-bold text-gray-900">
-                Pay Using UPI ID
+                Copy & Pay Using UPI ID
               </h3>
 
-              <p className="text-sm text-gray-500">
-                Manually enter the UPI ID in your app
-              </p>
+      
             </div>
 
           </div>
@@ -249,9 +238,7 @@ const Payment = () => {
           {/* Content */}
           <div className="p-6 text-center">
 
-            <div className="mx-auto flex h-14 w-14 items-center justify-center rounded-2xl bg-blue-50 text-blue-600">
-              <QrCode size={28} />
-            </div>
+    
 
 
             <p className="mt-4 text-sm text-gray-500">
@@ -291,10 +278,10 @@ const Payment = () => {
               </p>
             )}
 
+            
 
-            <p className="mt-3 text-xs text-gray-400">
-              Open your UPI app → Pay to UPI ID → Enter the amount
-            </p>
+
+   
 
           </div>
 

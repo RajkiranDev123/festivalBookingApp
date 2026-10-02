@@ -3,20 +3,17 @@ import { Phone, MessageCircle, Mail, Images } from "lucide-react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const phoneNumber = "916002080805";
+  const phoneNumber = "919933437203";
   const email = "ramesh@gmail.com"; // replace with actual email
 
   return (
     <footer className="mt-12 border-t border-gray-200/60 bg-white">
       <div className="mx-auto max-w-2xl px-4 py-8 text-center">
+     <h2 className="text-3xl font-bold text-gray-900/80">
+          Contact Me
+        </h2>
 
-        <p className="text-sm font-semibold text-gray-900/80">
-          Pandit Ramesh Adhikari
-        </p>
-
-        <p className="mt-1 text-xs text-gray-500">
-          Puja • Astrology • Spiritual Guidance
-        </p>
+        <div className="mx-auto mt-3 h-1 w-16 rounded-full bg-amber-400" />
 
         {/* Contact Buttons */}
         <div className="mt-6 flex justify-evenly">
