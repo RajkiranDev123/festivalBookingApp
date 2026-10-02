@@ -20,7 +20,7 @@ const Footer = () => {
 
           {/* WhatsApp */}
           <a
-            href={`https://wa.me/${phoneNumber}?text=Hello%20Pandit%20Ramesh,%20I%20would%20like%20to%20know%20about%20puja%20services.`}
+            href={`https://wa.me/${phoneNumber}?text=Hello%20Pandit%20Ramesh%20Ji,%20I%20would%20like%20to%20know%20about%20puja%20services.`}
             target="_blank"
             rel="noopener noreferrer"
             className="flex items-center justify-center gap-2 rounded-xl bg-green-600 px-4 py-3 text-sm font-semibold text-white shadow-md transition-all hover:bg-green-600 hover:shadow-lg active:scale-[0.98]"
