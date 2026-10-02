@@ -63,7 +63,7 @@ const Booking = () => {
 
       // Open WhatsApp after 3 seconds
       setTimeout(() => {
-        const whatsappNumber = "6002080805";
+        const whatsappNumber = "916002080805";
 
         const message = `Namaste 🙏
 
